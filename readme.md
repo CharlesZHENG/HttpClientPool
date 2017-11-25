@@ -14,6 +14,10 @@ https://news.cnblogs.com/n/553217/
 
 HttpClient类要自己写连接池管理，不能一直 new
 
+或者定义全局静态单例HttpClient对象，整个项目使用
+
+又或者：
+
 ### 使用方式，再不会出报错
 
 ```c#
