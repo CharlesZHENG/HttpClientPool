@@ -42,8 +42,8 @@ namespace testhttp {
 
 			var ts = DateTime.Now.Subtract(dt).TotalSeconds;
 			Console.WriteLine($"总耗时：{ts}秒");
-			Console.WriteLine($"共成功读取{counter_success}次，平均{counter_success / ts}/秒");
-			Console.WriteLine($"共成功读取{counter_error}次，平均{counter_error / ts}/秒");
+			Console.WriteLine($"共成功读取{counter_success}次，平均{counter_success / ts}/秒错误");
+			Console.WriteLine($"共错误{counter_error}次，平均{counter_error / ts}/秒错误");
 		}
 	}
 }
